@@ -1,0 +1,91 @@
+Patch "Extend Jukebox Song Count" by "M&M"
+{
+	/* UI Limit */
+
+	/* v1.30: 0x1409D997F */
+	long instrAddr = ScanSignature
+	(
+		"\xE8\x00\x00\x00\x00\x8B\xE8\x41\x8B\xDC\x85\xC0\x7E\x77\x0F\x1F\x00",
+		"x????xxxxxxxxxxxx"
+	);
+
+	/* v1.30: 0x140928D60 */
+	long uiCount = instrAddr + Read<int>(instrAddr + 1) + 5;
+
+	WriteProtected<byte>(uiCount + 1, 87);
+
+	WriteProtected<byte>
+	(
+		/* v1.30: 0x1409295CE */
+		ScanSignature
+		(
+			"\x83\xFB\x00\x7C\x9D\x48\x8B\x4C\x24\x00\x48\x8D\x05\x00\x00\x00\x00\x48\x8B\x7C\x24\x00",
+			"xx?xxxxxx?xxx????xxxx?"
+		)
+		+ 2,
+
+		87
+	);
+
+
+	/* Text Limit */
+
+	WriteProtected<byte>
+	(
+		/* v1.30: 0x140928D77 */
+		ScanSignature
+		(
+			"\x83\xFA\x00\x77\x1F\x48\x85\xC0\x74\x1A\x44\x8D\x42\x01",
+			"xx?xxxxxxxxxxx"
+		)
+		+ 2,
+
+		86
+	);
+
+
+	/* Playback Limit */
+
+	WriteProtected<byte>
+	(
+		/* v1.30: 0x140929153 */
+		ScanSignature
+		(
+			"\x83\xFF\x00\x0F\x87\x00\x00\x00\x00\x3B\x7B\x38\x0F\x84\x00\x00\x00\x00\x48\x89\xAC\x24\x00\x00\x00\x00\x48\x8B\xCB\x48\x89\xB4\x24\x00\x00\x00\x00",
+			"xx?xx????xxxxx????xxxx????xxxxxxx????"
+		)
+		+ 2,
+
+		86
+	);
+
+	WriteProtected<byte>
+	(
+		/* v1.30: 0x1409292BD */
+		ScanSignature
+		(
+			"\x83\xFE\x00\x0F\x87\x00\x00\x00\x00\x4C\x89\xB4\x24\x00\x00\x00\x00\x8B\xC6\x48\xC1\xE8\x06\x4C\x89\x7C\x24\x00",
+			"xx?xx????xxxx????xxxxxxxxxx?"
+		)
+		+ 2,
+
+		86
+	);
+
+
+	/* Play in list order/Shuffle Limit */
+
+	/* v1.30: 0x140928A80 */
+	instrAddr = ScanSignature
+	(
+		"\x48\x8B\xC4\x48\x83\xEC\x68\x48\x8B\x51\x10",
+		"xxxxxxxxxxx"
+	);
+
+	WriteProtected<byte>(instrAddr + 0x108, 87);
+	WriteProtected<byte>(instrAddr + 0x114, 0x03, 0x99, 0x14, 0x2F);
+	WriteProtected<byte>(instrAddr + 0x126, 87);
+	WriteProtected<byte>(instrAddr + 0x14C, 0x03, 0x99, 0x14, 0x2F);
+	WriteProtected<byte>(instrAddr + 0x160, 87);
+	WriteProtected<byte>(instrAddr + 0x165, 87);
+}
