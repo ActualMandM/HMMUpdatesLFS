@@ -1,16 +1,258 @@
+Patch "Jukebox Song Titles" by "M&M & Hyper"
+//
+	#lib "Converse"
+//
+{
+	Converse.Redirect("musicselect_songtitle_02", "Kronos Island: 1st Mvt.");
+	Converse.Redirect("musicselect_songtitle_03", "Kronos Island: 2nd Mvt.");
+	Converse.Redirect("musicselect_songtitle_04", "Kronos Island: 3rd Mvt.");
+	Converse.Redirect("musicselect_songtitle_05", "Kronos Island: 4th Mvt.");
+	Converse.Redirect("musicselect_songtitle_06", "Kronos Island: 5th Mvt.");
+	Converse.Redirect("musicselect_songtitle_07", "Kronos Island: 6th Mvt.");
+	Converse.Redirect("musicselect_songtitle_08", "Kronos Island: 7th Mvt.");
+	Converse.Redirect("musicselect_songtitle_09", "Cyber Space 1-1: Database");
+	Converse.Redirect("musicselect_songtitle_10", "Cyber Space 1-2: Flowing");
+	Converse.Redirect("musicselect_songtitle_11", "Cyber Space 1-3: Digital Cave");
+	Converse.Redirect("musicselect_songtitle_12", "Cyber Space 1-4: Genshi");
+	Converse.Redirect("musicselect_songtitle_13", "Cyber Space 1-5: Dropaholic");
+	Converse.Redirect("musicselect_songtitle_14", "Cyber Space 1-6: Go Back 2 Your Roots");
+	Converse.Redirect("musicselect_songtitle_15", "Cyber Space 1-7: Time Flyer");
+	Converse.Redirect("musicselect_songtitle_16", "Titan: GIGANTO");
+	Converse.Redirect("musicselect_songtitle_17", "Undefeatable");
+	Converse.Redirect("musicselect_songtitle_18", "Ares Island: 1st Mvt.");
+	Converse.Redirect("musicselect_songtitle_19", "Ares Island: 2nd Mvt.");
+	Converse.Redirect("musicselect_songtitle_20", "Ares Island: 3rd Mvt.");
+	Converse.Redirect("musicselect_songtitle_21", "Ares Island: 4th Mvt.");
+	Converse.Redirect("musicselect_songtitle_22", "Ares Island: 5th Mvt.");
+	Converse.Redirect("musicselect_songtitle_23", "Ares Island: 6th Mvt.");
+	Converse.Redirect("musicselect_songtitle_24", "Ares Island: 7th Mvt.");
+	Converse.Redirect("musicselect_songtitle_25", "Cyber Space 2-1: Slice & Sway");
+	Converse.Redirect("musicselect_songtitle_26", "Cyber Space 2-2: Heavenly Sky");
+	Converse.Redirect("musicselect_songtitle_27", "Cyber Space 2-3: Nostalgic Sweep");
+	Converse.Redirect("musicselect_songtitle_28", "Cyber Space 2-4: Hype Street");
+	Converse.Redirect("musicselect_songtitle_29", "Cyber Space 2-5: Déjà vu");
+	Converse.Redirect("musicselect_songtitle_30", "Cyber Space 2-6: Transparent Highway");
+	Converse.Redirect("musicselect_songtitle_31", "Cyber Space 2-7: Floating in the Blue");
+	Converse.Redirect("musicselect_songtitle_32", "Titan: WYVERN");
+	Converse.Redirect("musicselect_songtitle_33", "Break Through It All");
+	Converse.Redirect("musicselect_songtitle_34", "Chaos Island: 1st Mvt.");
+	Converse.Redirect("musicselect_songtitle_35", "Chaos Island: 2nd Mvt.");
+	Converse.Redirect("musicselect_songtitle_36", "Chaos Island: 3rd Mvt.");
+	Converse.Redirect("musicselect_songtitle_37", "Chaos Island: 4th Mvt.");
+	Converse.Redirect("musicselect_songtitle_38", "Chaos Island: 5th Mvt.");
+	Converse.Redirect("musicselect_songtitle_39", "Chaos Island: 6th Mvt.");
+	Converse.Redirect("musicselect_songtitle_40", "Chaos Island: 7th Mvt.");
+	Converse.Redirect("musicselect_songtitle_41", "Cyber Space 3-1: Escape the Loop");
+	Converse.Redirect("musicselect_songtitle_42", "Cyber Space 3-2: Go Slap");
+	Converse.Redirect("musicselect_songtitle_43", "Cyber Space 3-3: Memory will tell");
+	Converse.Redirect("musicselect_songtitle_44", "Cyber Space 3-4: Constructure");
+	Converse.Redirect("musicselect_songtitle_45", "Cyber Space 3-5: BMB");
+	Converse.Redirect("musicselect_songtitle_46", "Cyber Space 3-6: Enjoy this World");
+	Converse.Redirect("musicselect_songtitle_47", "Cyber Space 3-7: All Reality");
+	Converse.Redirect("musicselect_songtitle_48", "Titan: KNIGHT");
+	Converse.Redirect("musicselect_songtitle_49", "Find Your Flame");
+	Converse.Redirect("musicselect_songtitle_50", "Rhea Island");
+	Converse.Redirect("musicselect_songtitle_51", "Ouranos Island");
+	Converse.Redirect("musicselect_songtitle_52", "Theme of Starfall Islands");
+	Converse.Redirect("musicselect_songtitle_53", "Cyber Space 4-1: Exceed Mach");
+	Converse.Redirect("musicselect_songtitle_54", "Cyber Space 4-2: Ephemeral");
+	Converse.Redirect("musicselect_songtitle_55", "Cyber Space 4-3: Rumble Rave");
+	Converse.Redirect("musicselect_songtitle_56", "Cyber Space 4-4: Wishes in the Wind");
+	Converse.Redirect("musicselect_songtitle_57", "Cyber Space 4-5: Arrow of Time");
+	Converse.Redirect("musicselect_songtitle_58", "Cyber Space 4-6: Fog Funk");
+	Converse.Redirect("musicselect_songtitle_59", "Cyber Space 4-7: Rewind to go ahead");
+	Converse.Redirect("musicselect_songtitle_60", "Cyber Space 4-8: No Pain, No Gain");
+	Converse.Redirect("musicselect_songtitle_61", "Cyber Space 4-9: Signs");
+	Converse.Redirect("musicselect_songtitle_62", "I'm with you");
+	Converse.Redirect("musicselect_songtitle_63", "Dear Father");
+	Converse.Redirect("musicselect_songtitle_64", "Vandalize");
+	Converse.Redirect("musicselect_songtitle_65", "One Way Dream");
+	Converse.Redirect("musicselect_songtitle_66", "Guardians: First Encounters");
+	Converse.Redirect("musicselect_songtitle_67", "Guardian: ASURA");
+	Converse.Redirect("musicselect_songtitle_68", "Guardian: SQUID");
+	Converse.Redirect("musicselect_songtitle_69", "Guardian: NINJA");
+	Converse.Redirect("musicselect_songtitle_70", "Guardian: TOWER");
+	Converse.Redirect("musicselect_songtitle_71", "Guardian: SHARK");
+	Converse.Redirect("musicselect_songtitle_72", "Guardian: STRIDER");
+	Converse.Redirect("musicselect_songtitle_73", "Guardian: TANK");
+	Converse.Redirect("musicselect_songtitle_74", "Guardian: SUMO");
+	Converse.Redirect("musicselect_songtitle_75", "Guardian: SPIDER");
+	Converse.Redirect("musicselect_songtitle_76", "Guardian: FORTRESS");
+	Converse.Redirect("musicselect_songtitle_77", "Guardian: CATERPILLAR");
+	Converse.Redirect("musicselect_songtitle_78", "Guardian: GHOST");
+	Converse.Redirect("musicselect_songtitle_79", "Enemy: WOLF");
+	Converse.Redirect("musicselect_songtitle_80", "Quest: SOS Backup");
+	Converse.Redirect("musicselect_songtitle_81", "Quest: The Best Defense");
+	Converse.Redirect("musicselect_songtitle_82", "Quest: Bridge the Gap");
+	Converse.Redirect("musicselect_songtitle_83", "Island Mystery: Hacking Mission");
+	Converse.Redirect("musicselect_songtitle_84", "Island Mystery: Pinball");
+	Converse.Redirect("musicselect_songtitle_85", "Theme of Koco");
+	Converse.Redirect("musicselect_songtitle_86", "Fishing Vibes");
+	Converse.Redirect("musicselect_songtitle_87", "Action Chain Challenge");
+}
+
+Code "Jukebox Parameters" by "M&M & Hyper"
+//
+	#include "ReflectionHelpers" noemit
+
+	#lib "CustomMusicParameter"
+//
+{
+	var CustomMusicParameterInfo = Reflection.GetDataInfo<CustomMusicParameter.Root>("custom_music_param");
+
+	if (CustomMusicParameterInfo.pData == null)
+		return;
+
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[1].fadeOutTiming, 239.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[2].fadeOutTiming, 276.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[3].fadeOutTiming, 270.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[4].fadeOutTiming, 294.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[5].fadeOutTiming, 294.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[6].fadeOutTiming, 244.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[7].fadeOutTiming, 243.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[8].fadeOutTiming, 105.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[9].fadeOutTiming, 87.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[10].fadeOutTiming, 84.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[11].fadeOutTiming, 159.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[12].fadeOutTiming, 170.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[13].fadeOutTiming, 127.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[14].fadeOutTiming, 106.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[15].fadeOutTiming, 219.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[16].fadeOutTiming, 255.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[17].fadeOutTiming, 273.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[18].fadeOutTiming, 299.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[19].fadeOutTiming, 308.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[20].fadeOutTiming, 252.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[21].fadeOutTiming, 313.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[22].fadeOutTiming, 264.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[23].fadeOutTiming, 264.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[24].fadeOutTiming, 109.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[25].fadeOutTiming, 111.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[26].fadeOutTiming, 127.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[27].fadeOutTiming, 107.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[28].fadeOutTiming, 111.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[29].fadeOutTiming, 170.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[30].fadeOutTiming, 131.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[31].fadeOutTiming, 142.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[32].fadeOutTiming, 226.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[33].fadeOutTiming, 255.5f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[34].fadeOutTiming, 233.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[35].fadeOutTiming, 362.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[36].fadeOutTiming, 221.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[37].fadeOutTiming, 255.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[38].fadeOutTiming, 223.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[39].fadeOutTiming, 351.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[40].fadeOutTiming, 101.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[41].fadeOutTiming, 101.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[42].fadeOutTiming, 141.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[43].fadeOutTiming, 145.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[44].fadeOutTiming, 133.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[45].fadeOutTiming, 141.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[46].fadeOutTiming, 150.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[47].fadeOutTiming, 69.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[48].fadeOutTiming, 236.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[49].fadeOutTiming, 251.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[50].fadeOutTiming, 275.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[51].fadeOutTiming, 321.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[52].fadeOutTiming, 158.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[53].fadeOutTiming, 124.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[54].fadeOutTiming, 121.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[55].fadeOutTiming, 210.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[56].fadeOutTiming, 115.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[57].fadeOutTiming, 154.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[58].fadeOutTiming, 150.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[59].fadeOutTiming, 135.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[60].fadeOutTiming, 192.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[61].fadeOutTiming, 253.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[62].fadeOutTiming, 258.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[63].fadeOutTiming, 191.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[64].fadeOutTiming, 305.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[65].fadeOutTiming, 91.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[66].fadeOutTiming, 216.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[67].fadeOutTiming, 161.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[68].fadeOutTiming, 155.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[69].fadeOutTiming, 225.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[70].fadeOutTiming, 107.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[71].fadeOutTiming, 279.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[72].fadeOutTiming, 151.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[73].fadeOutTiming, 179.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[74].fadeOutTiming, 142.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[75].fadeOutTiming, 117.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[76].fadeOutTiming, 132.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[77].fadeOutTiming, 169.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[78].fadeOutTiming, 86.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[79].fadeOutTiming, 94.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[80].fadeOutTiming, 91.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[81].fadeOutTiming, 69.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[82].fadeOutTiming, 138.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[83].fadeOutTiming, 121.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[84].fadeOutTiming, 174.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[85].fadeOutTiming, 199.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[86].fadeOutTiming, 161.0f);
+
+	for (int i = 2; i < 87; i++)
+		RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[i]._lock, false);
+
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[6].musicType, CustomMusicParameter.MusicType.OTHER);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[7].musicType, CustomMusicParameter.MusicType.OTHER);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[11].musicType, CustomMusicParameter.MusicType.OTHER);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[15].musicType, CustomMusicParameter.MusicType.OTHER);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[16].musicType, CustomMusicParameter.MusicType.THEME_SONG);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[19].musicType, CustomMusicParameter.MusicType.OTHER);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[26].musicType, CustomMusicParameter.MusicType.OTHER);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[30].musicType, CustomMusicParameter.MusicType.OTHER);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[32].musicType, CustomMusicParameter.MusicType.THEME_SONG);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[33].musicType, CustomMusicParameter.MusicType.OTHER);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[39].musicType, CustomMusicParameter.MusicType.OTHER);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[47].musicType, CustomMusicParameter.MusicType.OTHER);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[48].musicType, CustomMusicParameter.MusicType.THEME_SONG);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[50].musicType, CustomMusicParameter.MusicType.OTHER);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[51].musicType, CustomMusicParameter.MusicType.OTHER);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[61].musicType, CustomMusicParameter.MusicType.THEME_SONG);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[62].musicType, CustomMusicParameter.MusicType.THEME_SONG);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[63].musicType, CustomMusicParameter.MusicType.THEME_SONG);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[64].musicType, CustomMusicParameter.MusicType.THEME_SONG);
+
+	for (int i = 1; i < 8; i++)
+		RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[i].cueName.Value, $"bgm_w1r02_{i}");
+
+	for (int i = 17; i < 24; i++)
+		RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[i].cueName.Value, $"bgm_w2r01_{i - 16}");
+
+	for (int i = 33; i < 40; i++)
+		RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[i].cueName.Value, $"bgm_w3r01_{i - 32}");
+
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[49].cueName.Value, "bgm_w1r05");
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[50].cueName.Value, "bgm_w1r04_1");
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[51].cueName.Value, "bgm_w1r04_4");
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[78].cueName.Value, "bgm_enemy");
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[79].cueName.Value, "bgm_quest_00");
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[80].cueName.Value, "bgm_quest_02");
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[82].cueName.Value, "bgm_hacking");
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[83].cueName.Value, "bgm_pinball");
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[84].cueName.Value, "bgm_talk_kodama");
+
+	for (int i = 53; i < 77; i++)
+		RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[i].cueName.Value, $"bgm_custom{i + 1}");
+}
+
 Patch "Extend Jukebox Song Count" by "M&M"
+//
+	#lib "Memory"
+//
 {
 	/* UI Limit */
 
-	/* v1.30: 0x1409D997F */
-	long instrAddr = ScanSignature
-	(
-		"\xE8\x00\x00\x00\x00\x8B\xE8\x41\x8B\xDC\x85\xC0\x7E\x77\x0F\x1F\x00",
-		"x????xxxxxxxxxxxx"
-	);
-
 	/* v1.30: 0x140928D60 */
-	long uiCount = instrAddr + Read<int>(instrAddr + 1) + 5;
+	long uiCount = Memory.ReadCall
+	(
+		/* v1.30: 0x1409D997F */
+		ScanSignature
+		(
+			"\xE8\x00\x00\x00\x00\x8B\xE8\x41\x8B\xDC\x85\xC0\x7E\x77\x0F\x1F\x00",
+			"x????xxxxxxxxxxxx"
+		)
+	);
 
 	WriteProtected<byte>(uiCount + 1, 87);
 
@@ -76,16 +318,16 @@ Patch "Extend Jukebox Song Count" by "M&M"
 	/* Play in list order/Shuffle Limit */
 
 	/* v1.30: 0x140928A80 */
-	instrAddr = ScanSignature
+	long addr = ScanSignature
 	(
 		"\x48\x8B\xC4\x48\x83\xEC\x68\x48\x8B\x51\x10",
 		"xxxxxxxxxxx"
 	);
 
-	WriteProtected<byte>(instrAddr + 0x108, 87);
-	WriteProtected<byte>(instrAddr + 0x114, 0x03, 0x99, 0x14, 0x2F);
-	WriteProtected<byte>(instrAddr + 0x126, 87);
-	WriteProtected<byte>(instrAddr + 0x14C, 0x03, 0x99, 0x14, 0x2F);
-	WriteProtected<byte>(instrAddr + 0x160, 87);
-	WriteProtected<byte>(instrAddr + 0x165, 87);
+	WriteProtected<byte>(addr + 0x108, 87);
+	WriteProtected<byte>(addr + 0x113, Assemble("mov eax, 0x2F149903"));
+	WriteProtected<byte>(addr + 0x126, 87);
+	WriteProtected<byte>(addr + 0x14B, Assemble("mov eax, 0x2F149903"));
+	WriteProtected<byte>(addr + 0x160, 87);
+	WriteProtected<byte>(addr + 0x165, 87);
 }

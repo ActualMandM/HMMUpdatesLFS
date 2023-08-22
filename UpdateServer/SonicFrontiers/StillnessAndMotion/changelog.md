@@ -1,5 +1,11 @@
 [GameBanana Download](https://gamebanana.com/mods/download/434496)
 
+## Stillness & Motion v1.05
+- Moved RFL edits to code.
+- Added support for other languages by using Hyper's `Converse` library.
+
+Please make sure that your codes in Hedge Mod Manager are up to date.
+
 ## Stillness & Motion v1.04
 - Fixed compatibility with v1.30 (Update 2).
 - Fixed sound effects when underwater.
