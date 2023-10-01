@@ -93,8 +93,9 @@ Patch "Jukebox Song Titles" by "M&M & Hyper"
 
 Code "Jukebox Parameters" by "M&M & Hyper"
 //
-	#include "ReflectionHelpers" noemit
+	#include "Reflection" noemit
 
+	#lib "Reflection"
 	#lib "CustomMusicParameter"
 //
 {
@@ -214,26 +215,26 @@ Code "Jukebox Parameters" by "M&M & Hyper"
 	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[64].musicType, CustomMusicParameter.MusicType.THEME_SONG);
 
 	for (int i = 1; i < 8; i++)
-		RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[i].cueName.Value, $"bgm_w1r02_{i}");
+		RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[i].cueName, $"bgm_w1r02_{i}");
 
 	for (int i = 17; i < 24; i++)
-		RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[i].cueName.Value, $"bgm_w2r01_{i - 16}");
+		RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[i].cueName, $"bgm_w2r01_{i - 16}");
 
 	for (int i = 33; i < 40; i++)
-		RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[i].cueName.Value, $"bgm_w3r01_{i - 32}");
+		RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[i].cueName, $"bgm_w3r01_{i - 32}");
 
-	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[49].cueName.Value, "bgm_w1r05");
-	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[50].cueName.Value, "bgm_w1r04_1");
-	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[51].cueName.Value, "bgm_w1r04_4");
-	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[78].cueName.Value, "bgm_enemy");
-	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[79].cueName.Value, "bgm_quest_00");
-	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[80].cueName.Value, "bgm_quest_02");
-	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[82].cueName.Value, "bgm_hacking");
-	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[83].cueName.Value, "bgm_pinball");
-	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[84].cueName.Value, "bgm_talk_kodama");
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[49].cueName, "bgm_w1r05");
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[50].cueName, "bgm_w1r04_1");
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[51].cueName, "bgm_w1r04_4");
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[78].cueName, "bgm_enemy");
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[79].cueName, "bgm_quest_00");
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[80].cueName, "bgm_quest_02");
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[82].cueName, "bgm_hacking");
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[83].cueName, "bgm_pinball");
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[84].cueName, "bgm_talk_kodama");
 
 	for (int i = 53; i < 77; i++)
-		RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[i].cueName.Value, $"bgm_custom{i + 1}");
+		RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[i].cueName, $"bgm_custom{i + 1}");
 }
 
 Patch "Extend Jukebox Song Count" by "M&M"
