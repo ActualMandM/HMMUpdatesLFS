@@ -26,7 +26,7 @@ Patch "Jukebox Song Titles" by "M&M & Hyper"
 	Converse.Redirect("musicselect_songtitle_22", "Ares Island: 5th Mvt.");
 	Converse.Redirect("musicselect_songtitle_23", "Ares Island: 6th Mvt.");
 	Converse.Redirect("musicselect_songtitle_24", "Ares Island: 7th Mvt.");
-	Converse.Redirect("musicselect_songtitle_25", "Cyber Space 2-1: Slice & Sway");
+	Converse.Redirect("musicselect_songtitle_25", "Cyber Space 2-1: Slice &amp; Sway");
 	Converse.Redirect("musicselect_songtitle_26", "Cyber Space 2-2: Heavenly Sky");
 	Converse.Redirect("musicselect_songtitle_27", "Cyber Space 2-3: Nostalgic Sweep");
 	Converse.Redirect("musicselect_songtitle_28", "Cyber Space 2-4: Hype Street");
