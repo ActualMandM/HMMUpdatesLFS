@@ -4,10 +4,23 @@ add songlist.txt
 add raw/sound/custom_sound/bgm_custom.acb
 add raw/sound/custom_sound/bgm_custom.awb
 add raw/sound/custom_sound/#alternative hcas/#note.txt
-add raw/sound/custom_sound/#alternative hcas/00087_streaming.hca
+add raw/sound/custom_sound/#alternative hcas/00001_streaming.hca
+add raw/sound/custom_sound/#alternative hcas/00045_streaming.hca
+add raw/sound/custom_sound/#alternative hcas/00061_streaming.hca
+add raw/sound/custom_sound/#alternative hcas/00077_streaming.hca
+add raw/sound/custom_sound/#alternative hcas/00091_streaming.hca
+add raw/sound/custom_sound/#alternative hcas/00093_streaming.hca
+add raw/sound/custom_sound/#alternative hcas/00115_streaming.hca
+add raw/sound/custom_sound/#alternative hcas/00116_streaming.hca
+add raw/sound/custom_sound/#alternative hcas/00117_streaming.hca
+add raw/sound/custom_sound/#alternative hcas/00118_streaming.hca
+
 delete raw/general/resident_general/Sonic_Rangers_Sound.acf
 delete raw/misc/sound_common.pac
 delete raw/sound/Sonic_Rangers_Sound.acf
+delete raw/sound/custom_sound/#alternative hcas/00064_streaming.hca
+delete raw/sound/custom_sound/#alternative hcas/00064_streamJPN.hca
+delete raw/sound/custom_sound/#alternative hcas/00087_streaming.hca
 delete raw/text/text_dlc_common_de.pac
 delete raw/text/text_dlc_common_en.pac
 delete raw/text/text_dlc_common_es.pac

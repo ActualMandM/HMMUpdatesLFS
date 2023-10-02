@@ -1,6 +1,14 @@
 Use these with SonicAudioTool's ACB Editor.
 
 00001_streaming - I'm Here (Instrumental)
-00064_streaming - Vandalize (Uncensored)
-00064_streamJPN - Vandalize (Japanese)
-00087_streaming - Action Chain Challenge (Early)
+00045_streaming - Undefeatable (Instrumental)
+00061_streaming - Break Through It All (Instrumental)
+00077_streaming - Find Your Flame (Instrumental)
+00091_streaming - Dear Father (Instrumental)
+00092_streaming - Vandalize (Uncensored)
+00092_streamJPN - Vandalize (Japanese)
+00093_streaming - One Way Dream (Instrumental)
+00115_streaming - Action Chain Challenge (Early)
+00116_streaming - Maybe If... - Amy Mvt. (Instrumental)
+00117_streaming - Blood Flow - Knuckles Mvt. (Instrumental)
+00118_streaming - Another Passage - Tails Mvt. (Instrumental)

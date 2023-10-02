@@ -2,10 +2,10 @@
 
 # Please make sure that your codes in Hedge Mod Manager are up to date.
 
-## Stillness & Motion v1.06h (hotfix)
+## Stillness & Motion v1.07
+- Added songs from Another Story.
+- Added instrumentals from Paths Revisited OST as alternative HCAs.
 - Fixed Slice & Sway crashing the game.
-
-The Paths Revisited update is ready, but I'm waiting for the `Converse` library to be fixed first before releasing it.
 
 ## Stillness & Motion v1.06
 - Updated to work with new Reflection library changes.

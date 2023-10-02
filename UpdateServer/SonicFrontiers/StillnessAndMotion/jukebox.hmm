@@ -89,6 +89,31 @@ Patch "Jukebox Song Titles" by "M&M & Hyper"
 	Converse.Redirect("musicselect_songtitle_85", "Theme of Koco");
 	Converse.Redirect("musicselect_songtitle_86", "Fishing Vibes");
 	Converse.Redirect("musicselect_songtitle_87", "Action Chain Challenge");
+	Converse.Redirect("musicselect_songtitle_88", "Maybe If... - Amy Mvt.");
+	Converse.Redirect("musicselect_songtitle_89", "Blood Flow - Knuckles Mvt.");
+	Converse.Redirect("musicselect_songtitle_90", "Another Passage - Tails Mvt.");
+	Converse.Redirect("musicselect_songtitle_91", "Second Wind - Sonic Mvt.");
+	Converse.Redirect("musicselect_songtitle_92", "Ouranos Island Remix");
+	Converse.Redirect("musicselect_songtitle_93", "Cyber Space 4-A: Genshi Remix");
+	Converse.Redirect("musicselect_songtitle_94", "Cyber Space 4-B: Escape the Loop Remix");
+	Converse.Redirect("musicselect_songtitle_95", "Cyber Space 4-C: Arrow of Time Remix");
+	Converse.Redirect("musicselect_songtitle_96", "Cyber Space 4-D: Rumble Rave Remix");
+	Converse.Redirect("musicselect_songtitle_97", "Cyber Space 4-E: Dropaholic Remix");
+	Converse.Redirect("musicselect_songtitle_98", "Cyber Space 4-F: Hype Street Remix");
+	Converse.Redirect("musicselect_songtitle_99", "Cyber Space 4-G: Ephemeral Remix");
+	Converse.Redirect("musicselect_songtitle_100", "Cyber Space 4-H: Wishes in the Wind Remix");
+	Converse.Redirect("musicselect_songtitle_101", "Cyber Space 4-I: Time Flyer Remix");
+	Converse.Redirect("musicselect_songtitle_102", "Master Koco Trial: Lvl. 1");
+	Converse.Redirect("musicselect_songtitle_103", "Master Koco Trial: Lvl. 2");
+	Converse.Redirect("musicselect_songtitle_104", "I'm Here - Orchestral ver.");
+	Converse.Redirect("musicselect_songtitle_105", "I'm Here - Revisited");
+	Converse.Redirect("musicselect_songtitle_106", "I'm with you - Vocal ver.");
+	Converse.Redirect("musicselect_songtitle_107", "Guardian: NINJA - Alternate ver.");
+	Converse.Redirect("musicselect_songtitle_108", "Guardian: CATERPILLAR - Alternate ver.");
+	Converse.Redirect("musicselect_songtitle_109", "Guardian: TOWER - Alternate ver.");
+	Converse.Redirect("musicselect_songtitle_110", "Guardian: SPIDER - Alternate ver.");
+	Converse.Redirect("musicselect_songtitle_111", "Guardian: GHOST - Alternate ver.");
+	Converse.Redirect("musicselect_songtitle_112", "Guardian: TANK - Alternate ver.");
 }
 
 Code "Jukebox Parameters" by "M&M & Hyper"
@@ -190,8 +215,33 @@ Code "Jukebox Parameters" by "M&M & Hyper"
 	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[84].fadeOutTiming, 174.0f);
 	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[85].fadeOutTiming, 199.0f);
 	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[86].fadeOutTiming, 161.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[87].fadeOutTiming, 211.5f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[88].fadeOutTiming, 196.7f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[89].fadeOutTiming, 228.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[90].fadeOutTiming, 198.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[91].fadeOutTiming, 303.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[92].fadeOutTiming, 146.8f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[93].fadeOutTiming, 127.7f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[94].fadeOutTiming, 185.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[95].fadeOutTiming, 135.7f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[96].fadeOutTiming, 157.3f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[97].fadeOutTiming, 109.3f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[98].fadeOutTiming, 141.5f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[99].fadeOutTiming, 143.6f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[100].fadeOutTiming, 134.8f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[101].fadeOutTiming, 61.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[102].fadeOutTiming, 97.9f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[103].fadeOutTiming, 217.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[104].fadeOutTiming, 241.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[105].fadeOutTiming, 268.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[106].fadeOutTiming, 148.7f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[107].fadeOutTiming, 86.3f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[108].fadeOutTiming, 224.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[109].fadeOutTiming, 146.5f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[110].fadeOutTiming, 157.0f);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[111].fadeOutTiming, 91.8f);
 
-	for (int i = 2; i < 87; i++)
+	for (int i = 2; i < 112; i++)
 		RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[i]._lock, false);
 
 	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[6].musicType, CustomMusicParameter.MusicType.OTHER);
@@ -213,6 +263,9 @@ Code "Jukebox Parameters" by "M&M & Hyper"
 	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[62].musicType, CustomMusicParameter.MusicType.THEME_SONG);
 	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[63].musicType, CustomMusicParameter.MusicType.THEME_SONG);
 	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[64].musicType, CustomMusicParameter.MusicType.THEME_SONG);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[103].musicType, CustomMusicParameter.MusicType.THEME_SONG);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[104].musicType, CustomMusicParameter.MusicType.THEME_SONG);
+	RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[105].musicType, CustomMusicParameter.MusicType.THEME_SONG);
 
 	for (int i = 1; i < 8; i++)
 		RFL_SET_PARAM(CustomMusicParameterInfo, musicInfos[i].cueName, $"bgm_w1r02_{i}");
@@ -255,7 +308,7 @@ Patch "Extend Jukebox Song Count" by "M&M"
 		)
 	);
 
-	WriteProtected<byte>(uiCount + 1, 87);
+	WriteProtected<byte>(uiCount + 1, 112);
 
 	WriteProtected<byte>
 	(
@@ -267,7 +320,7 @@ Patch "Extend Jukebox Song Count" by "M&M"
 		)
 		+ 2,
 
-		87
+		112
 	);
 
 
@@ -283,7 +336,7 @@ Patch "Extend Jukebox Song Count" by "M&M"
 		)
 		+ 2,
 
-		86
+		111
 	);
 
 
@@ -299,7 +352,7 @@ Patch "Extend Jukebox Song Count" by "M&M"
 		)
 		+ 2,
 
-		86
+		111
 	);
 
 	WriteProtected<byte>
@@ -312,7 +365,7 @@ Patch "Extend Jukebox Song Count" by "M&M"
 		)
 		+ 2,
 
-		86
+		111
 	);
 
 
@@ -325,10 +378,12 @@ Patch "Extend Jukebox Song Count" by "M&M"
 		"xxxxxxxxxxx"
 	);
 
-	WriteProtected<byte>(addr + 0x108, 87);
-	WriteProtected<byte>(addr + 0x113, Assemble("mov eax, 0x2F149903"));
-	WriteProtected<byte>(addr + 0x126, 87);
-	WriteProtected<byte>(addr + 0x14B, Assemble("mov eax, 0x2F149903"));
-	WriteProtected<byte>(addr + 0x160, 87);
-	WriteProtected<byte>(addr + 0x165, 87);
+    WriteProtected<byte>(addr + 0x108, 112);
+    WriteProtected<byte>(addr + 0x113, Assemble($"mov eax, 0x92492493"));
+    WriteProtected<byte>(addr + 0x11A, Assemble($"sar edx, 6"));
+    WriteProtected<byte>(addr + 0x126, 112);
+    WriteProtected<byte>(addr + 0x14B, Assemble($"mov eax, 0x92492493"));
+    WriteProtected<byte>(addr + 0x154, Assemble($"sar edx, 6"));
+    WriteProtected<byte>(addr + 0x160, 112);
+    WriteProtected<byte>(addr + 0x165, 112);
 }
