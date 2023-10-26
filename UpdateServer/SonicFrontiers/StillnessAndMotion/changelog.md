@@ -2,6 +2,11 @@
 
 # Please make sure that your codes in Hedge Mod Manager are up to date.
 
+## Stillness & Motion v1.08
+- Added alternative HCAs into the Jukebox directly.
+- Fixed Slice & Sway displaying as Slice &amp; Sway.
+- Fixed GHOST - Alternate ver. ending earlier than it should.
+
 ## Stillness & Motion v1.07
 - Added songs from Another Story.
 - Added instrumentals from Paths Revisited OST as alternative HCAs.
